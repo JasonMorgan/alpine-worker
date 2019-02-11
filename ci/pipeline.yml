@@ -29,7 +29,7 @@ resources: # This is where we define the resources are pipeline will work with. 
   source:
     username: ((harbor.username))
     password: ((harbor.password))
-    repository: harbor.aws.59s.io:443/59s/vault-image
+    repository: harbor.aws.59s.io:443/59s/alpine-worker
     # insecure_registries: ["harbor.aws.59s.io:443"]
 
 jobs: #  We're breaking with out into 2 jobs so that we can have 2 tags associated with our image.
